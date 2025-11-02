@@ -1,13 +1,17 @@
 .gallery {
     display: grid;
     gap: 10px;
-    padding: 20px 0 36px 0;
+    padding: 20px 0 50px 0;
 }
 
 .gallery__image {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.gallery__image:first-child {
+    margin-top: -10px;
 }
 
 @media (width >= 768px) {

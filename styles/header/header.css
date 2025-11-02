@@ -85,8 +85,7 @@
 }
 
 .header__title {
-    margin: 0;
-    padding: 0;
+    margin: 5px 0 0 0;
 
     color: var(--title-color);
     text-shadow: 4px 4px 0 var(--accent-color);
@@ -103,15 +102,15 @@
     grid-row: 3;
     justify-self: end;
 
-    margin-top: -22px;
+    margin-top: -2px;
 }
 
 .header__description-text {
-    margin: 20px 0 0 0;
+    margin: 5px 0 0 0;
 
     font-size: 18px;
     font-weight: bold;
-    line-height: 23px;
+    line-height: 23.4px;
 }
 
 .title-decor {
@@ -121,7 +120,7 @@
 
 @media (width >= 768px) {
     .header__title {
-        margin: 0 0 0 -20px;
+        margin: 0 -20px 0 -20px;
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
 
