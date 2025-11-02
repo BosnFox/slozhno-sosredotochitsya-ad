@@ -86,7 +86,8 @@
 }
 
 .header__title {
-    margin: 0;
+    margin: -22px 0 0 0;
+    padding: 0;
 
     color: var(--title-color);
     text-shadow: 4px 4px 0 var(--accent-color);
@@ -103,6 +104,8 @@
     grid-row: 3;
     justify-self: end;
     /*max-width: 491px;*/
+
+    margin-top: -22px;
 }
 
 .header__description-text {
@@ -119,6 +122,11 @@
 }
 
 @media (width >= 768px) {
+    .header__title {
+        margin: -22px 0 0 -20px;
+        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    }
+
     .header__description {
         max-width: 50%;
     }

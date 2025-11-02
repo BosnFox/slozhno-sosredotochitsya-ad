@@ -1,7 +1,6 @@
 .gallery {
     display: grid;
     gap: 10px;
-    margin-bottom: 60px;
 }
 
 .gallery__image {
@@ -28,9 +27,23 @@
         object-position: center;
     }
 
-    .gallery__image:nth-child(1) { grid-area: wide; }
-    .gallery__image:nth-child(2) { grid-area: food; }
-    .gallery__image:nth-child(3) { grid-area: cassette; }
-    .gallery__image:nth-child(4) { grid-area: books; }
-    .gallery__image:nth-child(5) { grid-area: street; }
+    .gallery__image:nth-child(1) {
+        grid-area: wide;
+    }
+
+    .gallery__image:nth-child(2) {
+        grid-area: food;
+    }
+
+    .gallery__image:nth-child(3) {
+        grid-area: cassette;
+    }
+
+    .gallery__image:nth-child(4) {
+        grid-area: books;
+    }
+
+    .gallery__image:nth-child(5) {
+        grid-area: street;
+    }
 }
