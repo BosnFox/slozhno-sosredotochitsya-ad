@@ -4,7 +4,6 @@
     display: grid;
 
     grid-template-rows: 1fr min-content 1fr;
-    /*min-height: 100vh;*/
 }
 
 .header__rec {
@@ -86,7 +85,7 @@
 }
 
 .header__title {
-    margin: -22px 0 0 0;
+    margin: 0;
     padding: 0;
 
     color: var(--title-color);
@@ -103,17 +102,16 @@
 
     grid-row: 3;
     justify-self: end;
-    /*max-width: 491px;*/
 
     margin-top: -22px;
 }
 
 .header__description-text {
-    margin: 0;
+    margin: 20px 0 0 0;
 
     font-size: 18px;
     font-weight: bold;
-    line-height: 23.4px;
+    line-height: 23px;
 }
 
 .title-decor {
@@ -123,7 +121,7 @@
 
 @media (width >= 768px) {
     .header__title {
-        margin: -22px 0 0 -20px;
+        margin: 0 0 0 -20px;
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
 

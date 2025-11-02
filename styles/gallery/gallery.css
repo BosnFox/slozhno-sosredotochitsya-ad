@@ -1,6 +1,7 @@
 .gallery {
     display: grid;
     gap: 10px;
+    padding: 20px 0 36px 0;
 }
 
 .gallery__image {
@@ -17,7 +18,8 @@
             "wide wide food"
             "cassette books food"
             "cassette street street";
-        gap: 20px;
+        gap: 12px 20px;
+        padding: 20px 0 66px 0;
     }
 
     .gallery__image {
